@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Projeto Lampada</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>Vamos interagir com a lâmpada</nav>
+    </header>
+
+    <main>
+        <p id="obs"></p>
+      <section onmouseover="ligar()" onmouseout="desligar()" onmouseup="quebrar()" id="img">
+        <!-- <img src="./imagens/desligada.jpg" alt="lampada" /> -->
+      </section>
+      <section id="btns">
+        <button onclick="ligar()"  id="ligar">Ligar</button>
+        <button onclick="desligar()" id="desligar">Desligar</button>
+        <button onclick="quebrar()" id="quebrar">Quebrar</button>
+        <button onclick="trocar()" id="trocar">Trocar</button>
+      </section>
+    </main>
+
+    <footer>Projeto desenvolvido por Robert Argolo</footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

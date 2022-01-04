@@ -13,15 +13,16 @@
     </header>
 
     <main>
-        <p id="obs"></p>
-      <section onmouseover="ligar()" onmouseout="desligar()" onmouseup="quebrar()" id="img">
-        <!-- <img src="./imagens/desligada.jpg" alt="lampada" /> -->
+      <p id="obs">Status: Interaja com a lâmpada</p>
+      <section id="container_img">
+        <img id="img" src="./imagens/desligada.jpg" alt="lampada" />
       </section>
       <section id="btns">
-        <button onclick="ligar()"  id="ligar">Ligar</button>
-        <button onclick="desligar()" id="desligar">Desligar</button>
-        <button onclick="quebrar()" id="quebrar">Quebrar</button>
-        <button onclick="trocar()" id="trocar">Trocar</button>
+        <button id="ligar">Ligar</button>
+        <button id="desligar">Desligar</button>
+        <button id="quebrar">Quebrar</button>
+        <button id="trocar">Trocar</button>
+        <button id="onOff">ON</button>
       </section>
     </main>
 
